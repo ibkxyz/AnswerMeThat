@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.abc.answermethat.Main3Activity">
+
+
+    <ImageView
+        android:id="@+id/amt_image_view_finished"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/finished" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/button_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:onClick="replay"
+            android:text="REPLAY" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

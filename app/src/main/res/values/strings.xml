@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">-? that</string>
+    <string name="question_one">1. How old do you think Google is?</string>
+    <string name="question_two">2. JAVA is an example of OOP?</string>
+    <string name="question_three">3. What is the full meaning of SQL?</string>
+    <string name="question_four">4. The following are example of Computer Peripherals Except</string>
+    <string name="question_five">5. A programmer writes</string>
+</resources>

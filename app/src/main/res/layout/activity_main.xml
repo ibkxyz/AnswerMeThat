@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.abc.answermethat.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/amt_image_view_start"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:paddingTop="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/start" />
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/button_start_quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="Start Quiz"
+                android:onClick="startQuiz"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
