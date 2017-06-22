@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FFFFFF"
-    android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
+    android:orientation="vertical"
     tools:context="com.example.abc.answermethat.MainActivity">
 
     <ImageView
@@ -34,7 +34,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/question_one"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="#212121"/>
 
             <RadioGroup
                 android:id="@+id/radio_group_question_one"
@@ -72,7 +73,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/question_two"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="#212121"/>
 
             <RadioGroup
                 android:id="@+id/radio_group_question_two"
@@ -105,7 +107,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/question_three"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="#212121"/>
 
             <EditText
                 android:id="@+id/editText_Question_Three"
@@ -121,7 +124,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/question_four"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="#212121" />
 
 
             <CheckBox
@@ -178,7 +182,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/question_five"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="#212121"/>
 
             <CheckBox
                 android:id="@+id/sentence_checkbox"
